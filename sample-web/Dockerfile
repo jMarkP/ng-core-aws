@@ -18,7 +18,6 @@ COPY . .
 ## Build the angular app in production mode and store the artifacts in dist folder
 RUN npm run build:ssr
 
-
 ### STAGE 2: Setup ###
 
 FROM node:13.5.0-alpine
